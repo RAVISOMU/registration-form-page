@@ -1,0 +1,140 @@
+.registration-form-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #ea580c;
+  margin-bottom: 42px;
+}
+
+.registration-form {
+  width: 80%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 700;
+  color: #475569;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+.firstname {
+  height: 36px;
+  font-family: 'Roboto';
+  outline: none;
+  padding: 8px 10px;
+  border: 1px solid #9aa5b1;
+  border-radius: 5px;
+}
+
+.lastname {
+  height: 36px;
+  font-family: 'Roboto';
+  outline: none;
+  padding: 8px 10px;
+  border: 1px solid #9aa5b1;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #ea580c;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding: 6px 0px;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.error-message {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ff0b37;
+  margin-top: 2px;
+}
+
+.error {
+  background-color: #fef2f4;
+  border: 1px solid #ff0b37;
+}
+
+.submit-another-response-button {
+  background-color: #ea580c;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding: 6px 12px;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.submit-success-container {
+  width: 80%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-image {
+  width: 36px;
+}
+
+.submit-result {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .registration-form-bg-container {
+    justify-content: center;
+  }
+
+  .heading {
+    font-size: 42px;
+  }
+
+  .registration-form {
+    box-shadow: 0px 4px 16px 0px #9aa5b1;
+    padding: 48px;
+    border-radius: 14px;
+  }
+
+  .submit-button {
+    align-self: center;
+    padding: 8px 20px;
+  }
+
+  .submit-another-response-button {
+    padding: 8px 20px;
+  }
+
+  .submit-success-container {
+    box-shadow: 0px 4px 16px 0px #9aa5b1;
+    padding: 48px;
+    border-radius: 14px;
+  }
+
+  .success-image {
+    width: 54px;
+  }
+}
